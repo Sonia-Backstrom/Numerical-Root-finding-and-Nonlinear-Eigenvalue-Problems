@@ -66,11 +66,13 @@ The AAA algorithm constructs a rational approximation of \(g(z)\), whose poles a
 
 ```text
 .
+├── Report.pdf
 ├── Numerical_Root_finding.ipynb
-├── Main_ONE.pdf
-├── g_eval.csv
+├── readme
+├── g_eval.cs
 ├── g_nlevp.py
-└── gun.mat
+├── gun.mat
+└── tasks.pdf
 
 ```
 
