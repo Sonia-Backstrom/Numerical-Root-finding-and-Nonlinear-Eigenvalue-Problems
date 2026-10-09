@@ -10,18 +10,6 @@ This project investigates numerical methods for finding roots of complex-valued 
 
 ## Task 1: Numerical Root-Finding
 
-The objective is to find all roots of
-
-\[
-f(z)=e^{2z}\cos(5z)-5z^2
-\]
-
-inside the unit disk:
-
-\[
-K=\{z\in\mathbb{C}:|z|<1\}.
-\]
-
 The Delves–Lyness/Beyn–Hankel (DL/BH) method is used to compute the roots.
 
 ### Methodology
@@ -40,21 +28,6 @@ Four roots were identified inside the unit disk. Increasing the number of quadra
 
 ## Task 2: Nonlinear Eigenvalue Problems
 
-The nonlinear eigenvalue problem is formulated as
-
-\[
-\det F(\lambda)=0,
-\]
-
-where \(F(\lambda)\) is a large, sparse, nonlinear matrix-valued function.
-
-To avoid directly computing the expensive determinant, the scalar function
-
-\[
-g(z)=v^T F(z)^{-1}w
-\]
-
-is used.
 
 The AAA algorithm constructs a rational approximation of \(g(z)\), whose poles are considered candidate eigenvalues.
 
